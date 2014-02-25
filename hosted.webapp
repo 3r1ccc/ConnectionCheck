@@ -1,0 +1,48 @@
+{
+  "name": "ConnectionCheck",
+  "description": "Test app for getting connectino information",
+  "type": "certified",
+  "launch_path": "/ConnectionCheck/index.html",
+  "developer": {
+    "name": "echang@mozilla",
+    "url": "https://github.com/echangmoz/ConnectionCheck/"
+  },
+  "messages": [
+     { "alarm": "/index.html" }
+  ],
+  "permissions": {
+      "wifi-manage" : {"description":  "Enumerate available WiFi networks, get signal strength, connect to a network."}
+  },
+  "locales": {
+    "ar": {
+      "name": "ConnectionCheck",
+      "description": "Test app for getting connectino information"
+    },
+    "en-US": {
+      "name": "ConnectionCheck",
+      "description": "Test app for getting connectino information"
+    },
+    "fr": {
+      "name": "ConnectionCheck",
+      "description": "Test app for getting connectino information"
+    },
+    "zh-TW": {
+      "name": "ConnectionCheck",
+      "description": "Test app for getting connectino information"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "79": "/style/icons/79x79.png",
+    "128": "/style/icons/128x128.png"
+  },
+  "activities": {
+    "view": {
+      "filters": {
+        "type": "url",
+        "url": { "required":true, "pattern":"mailto:.{1,16384}" }
+      }
+    }
+  },
+  "orientation": "portrait-primary"
+}
