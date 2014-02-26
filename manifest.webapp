@@ -15,7 +15,13 @@
   "permissions": {
     "wifi-manage": {
       "description": "Enumerate available WiFi networks, get signal strength, connect to a network."
-    }
+    },
+    "mobilenetwork": {
+      "description": "Obtain mobile network information (MCC, MNC, etc.)."
+    },    
+    "mobileconnection": {
+      "description": "Obtain information about the current mobile voice and data connection."
+    }      
   },
   "locales": {
     "ar": {
