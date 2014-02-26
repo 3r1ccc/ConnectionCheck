@@ -1,6 +1,6 @@
 {
   "name": "ConnectionCheck",
-  "description": "Test app for getting connectino information",
+  "description": "Test app for getting connection information",
   "type": "certified",
   "launch_path": "/ConnectionCheck/index.html",
   "developer": {
@@ -16,19 +16,19 @@
   "locales": {
     "ar": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "en-US": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "fr": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "zh-TW": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     }
   },
   "default_locale": "en-US",

@@ -1,11 +1,11 @@
 {
   "name": "ConnectionCheck",
-  "description": "Test app for getting connectino information",
+  "description": "Test app for getting connection information",
   "type": "certified",
   "launch_path": "/index.html",
   "developer": {
-    "name": "MozQATW Team",
-    "url": "https://github.com/echangz/ConnectionCheck/"
+    "name": "echangmoz",
+    "url": "https://github.com/echangmoz/ConnectionCheck/"
   },
   "messages": [
     {
@@ -26,19 +26,19 @@
   "locales": {
     "ar": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "en-US": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "fr": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     },
     "zh-TW": {
       "name": "ConnectionCheck",
-      "description": "Test app for getting connectino information"
+      "description": "Test app for getting connection information"
     }
   },
   "default_locale": "en-US",
