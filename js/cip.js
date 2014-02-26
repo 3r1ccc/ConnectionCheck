@@ -206,7 +206,7 @@ function getMobileData() {
 
 var wel = document.getElementById("btn-refresh-local-wifi");
 wel.addEventListener("click", getLocalIp, false);
-var mel = document.getElementById("btn-refresh-mobile-voice");
-mel.addEventListener("click", getMobileVoice, false);
-var mel = document.getElementById("btn-refresh-mobile-data");
-mel.addEventListener("click", getMobileData, false);
+var vel = document.getElementById("btn-refresh-mobile-voice");
+vel.addEventListener("click", getMobileVoice, false);
+var del = document.getElementById("btn-refresh-mobile-data");
+del.addEventListener("click", getMobileData, false);
