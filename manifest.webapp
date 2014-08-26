@@ -1,7 +1,7 @@
 {
-  "name": "ConnectionCheck",
-  "description": "Test app for getting connection information",
-  "type": "certified",
+  "name": "pConnectionCheck",
+  "description": "Privileged test app for getting connection information",
+  "type": "privileged",
   "launch_path": "/index.html",
   "developer": {
     "name": "echangmoz",
@@ -13,9 +13,6 @@
     }
   ],
   "permissions": {
-    "wifi-manage": {
-      "description": "Enumerate available WiFi networks, get signal strength, connect to a network."
-    },
     "mobilenetwork": {
       "description": "Obtain mobile network information (MCC, MNC, etc.)."
     },    
@@ -25,19 +22,19 @@
   },
   "locales": {
     "ar": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "en-US": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "fr": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "zh-TW": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     }
   },

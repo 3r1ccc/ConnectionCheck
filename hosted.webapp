@@ -1,7 +1,7 @@
 {
-  "name": "ConnectionCheck",
-  "description": "Test app for getting connection information",
-  "type": "certified",
+  "name": "pConnectionCheck",
+  "description": "Privileged test app for getting connection information",
+  "type": "privileged",
   "launch_path": "/ConnectionCheck/index.html",
   "developer": {
     "name": "echang@mozilla",
@@ -10,24 +10,21 @@
   "messages": [
      { "alarm": "/index.html" }
   ],
-  "permissions": {
-      "wifi-manage" : {"description":  "Enumerate available WiFi networks, get signal strength, connect to a network."}
-  },
   "locales": {
     "ar": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "en-US": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "fr": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     },
     "zh-TW": {
-      "name": "ConnectionCheck",
+      "name": "pConnectionCheck",
       "description": "Test app for getting connection information"
     }
   },

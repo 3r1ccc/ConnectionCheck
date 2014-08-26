@@ -1,3 +1,3 @@
 ConnectionCheck
 ========
-Test app for getting connectino information.
+Privileged Test app for getting connection information.
